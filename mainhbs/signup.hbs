@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/signup.css">
+    <title>amit.com/signup</title>
+</head>
+
+<body>
+    <div class="contaner">
+        <div class="sign-head">
+            <h2>Register</h2>
+        </div>
+        <form action="/signup" method="post">
+            <div class="user">
+                <input type="text" name="name" placeholder="Enter Username" class="user-1">
+            </div>
+            <div class="passwrd">
+                <input type="password" name="password" placeholder="Enter Password" class="passwrd-1">
+            </div>
+            <div class="mob">
+                <input type="number" name="number" placeholder="Enter Mob.No." class="mob-1">
+            </div>
+            <div class="date">
+                <input type="date" name="date" placeholder="Enter DOB" class="date-1">
+            </div>
+            <div class="mail">
+                <input type="email" name="mail" placeholder="Enter Email" class="mail-1">
+            </div>
+            <div class="gender">
+                <span><input type="radio" name="gender" value="Male" class="gen">Male</span>
+                <span><input type="radio" name="gender" value="Female" class="gen">Female</span>
+                <span><input type="radio" name="gender" value="Other" class="gen">Other</span>
+            </div>
+            <div class="submit">
+                <input type="submit" value="Register" class="sub">
+            </div>
+        </form>
+    </div>
+    <div class="contaner-1">
+        <div class="log">
+            Have an Account? <a href="http://localhost/" class="log-1">Log-In</a>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.product{
+    border: 1px solid black;
+}
+.card{
+    width: 18%;
+    border-radius: 5px;
+    margin: 40px;
+    background-color: gray;
+    display: inline-block;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.image img{
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.t-1{
+    text-align: center;
+}
+.price{
+    text-align: center;
+    padding: 4px;
+}
+.card:hover{
+    transform: translateX(-5px);
+}

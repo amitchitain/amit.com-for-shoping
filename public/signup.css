@@ -1,0 +1,81 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+}
+body{
+    background: radial-gradient(rgb(134, 130, 130),rgb(220, 180, 186));
+}
+.contaner ,.contaner-1{
+    /* background: radial-gradient(rgb(245, 211, 217),rgb(204, 202, 202)); */
+    width: 450px;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+    align-items: center;
+    margin: auto;
+    background: transparent;
+    margin-top: 50px;
+    box-shadow: 2px  5px  10px black;
+
+}
+.contaner-1{
+    margin-top: 10px;
+}
+.sign-head{
+    text-align: center;
+    font-size: 40px;
+    color: red;
+}
+.user,.passwrd,.date,.mob,.mail,.submit{
+    margin: 20px 35px;
+    height: 40px;
+}
+.user-1,.passwrd-1,.date-1,.mob-1,.mail-1,.sub{
+    padding: 0px 10px;
+    border-radius: 50px;
+    height: 40px;
+    /* margin: 8px 10px; */
+    width: 350px;
+    font-size: 25px;
+    color: black;
+    border: none;
+}
+.sub{
+    background-color: red;
+    color: white;
+    font-size: 30px;
+    border: 2px solid white;
+}
+.sub:hover{
+    background-color: white;
+    color: red;
+    font-size: 30px;
+    border: 2px solid red;
+    cursor: pointer;
+}
+.gen{
+    /* margin-top: 5px; */
+    height: 30px;
+    width: 50px;
+}
+.gender{
+    width: 350px;
+    font-size: 25px;
+    margin: 20px 35px;
+    text-align: justify;
+    /* border: 2px solid red; */
+}
+.log-1{
+    margin: 70px 5px;
+    font-size: 25px;
+}
+.log{
+    font-size: 25px;
+    margin: 15px 70px;
+}
+.log-1:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: red;
+}
